@@ -1,2 +1,3 @@
 # covidtracking-data-analysis-R
- covid tracking data analysis with R
+
+data from: https://covidtracking.com/data
