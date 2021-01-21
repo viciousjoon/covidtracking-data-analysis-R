@@ -62,7 +62,7 @@ str(covid.state.historic)
 summary(covid.state.historic$hospitalizedCurrently)
 
 covid.state.historic %>% 
-        filter(state %in% c('CA','AL','AZ','TX','FL')) %>%
+        filter(state %in% c('CA','AL','AZ','TX','FL','NY')) %>%
         ggplot(aes(x=date)) +
         geom_col(aes(y=hospitalizedCurrently, fill=state)) +
         facet_grid(.~state)
